@@ -33,5 +33,5 @@ outputs:
   deployment_file_name:
     description: 'Name of the downloaded deployment file'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
